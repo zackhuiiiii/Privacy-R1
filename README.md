@@ -3,8 +3,9 @@
 # Privacy-R1: Privacy-Aware Multi-LLM Agent Collaboration via Reinforcement Learning
 
 [![Paper](https://img.shields.io/badge/paper-arXiv%3A2510.16054-b31b1b.svg)](https://arxiv.org/abs/2510.16054)
+[![Dataset](https://img.shields.io/badge/dataset-Hugging%20Face-yellow.svg)](https://huggingface.co/datasets/zackhatecoding/Med-PCD)
 [![Venue](https://img.shields.io/badge/ACL%202026-Main%20Conference-c8102e.svg)](https://2026.aclweb.org/)
-[![Dataset](https://img.shields.io/badge/dataset-Med--PCD-blue.svg)](#dataset-files)
+[![Med-PCD](https://img.shields.io/badge/Med--PCD-1020%20instances-blue.svg)](#dataset-files)
 [![Instances](https://img.shields.io/badge/instances-1020-success.svg)](#statistics)
 [![Domain](https://img.shields.io/badge/domain-medical-9cf.svg)](#overview)
 
@@ -46,7 +47,8 @@ a complex setting, we introduce **Med-PCD**, a new medical dataset with high PII
 
 This repository releases **Med-PCD** (Medical Privacy-Conscious Delegation), the dataset introduced
 in the paper. It is a benchmark for privacy-preserving LLM systems in a domain where queries tend to
-carry many interconnected PII entities.
+carry many interconnected PII entities. The dataset is also available on
+[Hugging Face](https://huggingface.co/datasets/zackhatecoding/Med-PCD).
 
 Med-PCD is built on the publicly available, already-anonymized
 [MedDialog](https://aclanthology.org/2020.emnlp-main.743/) patient–doctor dialogues. An LLM injects
@@ -140,6 +142,17 @@ original MedDialog messages.
 ---
 
 ## Loading the data
+
+From Hugging Face:
+
+```python
+from datasets import load_dataset
+
+ds = load_dataset("zackhatecoding/Med-PCD")
+ex = ds["train"][0]
+```
+
+From the local JSON files in this repo:
 
 ```python
 import json
