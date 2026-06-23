@@ -6,7 +6,7 @@
 [![Dataset](https://img.shields.io/badge/dataset-Hugging%20Face-yellow.svg)](https://huggingface.co/datasets/zackhatecoding/Med-PCD)
 [![Venue](https://img.shields.io/badge/ACL%202026-Main%20Conference-c8102e.svg)](https://2026.aclweb.org/)
 [![Med-PCD](https://img.shields.io/badge/Med--PCD-1020%20instances-blue.svg)](#dataset-files)
-[![Instances](https://img.shields.io/badge/instances-1020-success.svg)](#statistics)
+
 [![Domain](https://img.shields.io/badge/domain-medical-9cf.svg)](#overview)
 
 **Zheng Hui**&nbsp;&nbsp;·&nbsp;&nbsp;**Yijiang River Dong**&nbsp;&nbsp;·&nbsp;&nbsp;**Sanhanat Sivapiromrat**&nbsp;&nbsp;·&nbsp;&nbsp;**Ehsan Shareghi**&nbsp;&nbsp;·&nbsp;&nbsp;**Nigel Collier**
