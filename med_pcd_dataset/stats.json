@@ -5,5 +5,4 @@
   "avg_num_pii": 4.572,
   "avg_query_len_chars": 1492.1,
   "avg_response_len_chars": 2181.3,
-  "model": "gpt-5.5-2026-04-23"
 }
